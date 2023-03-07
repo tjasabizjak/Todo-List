@@ -7,13 +7,8 @@
 body {
   color: #fff;
   min-height: 100vh;
-  /* background-color: #ff8177; */
   background-image: linear-gradient(to top, #ffc165 0%, #fcbfad 100%);
   background-size: 100%;
-  /* -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent; */
 }
 
 header {
@@ -122,44 +117,4 @@ form button:hover {
 
 .slide {
   transform: translateX(10rem);
-}
-
-.select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-  border: none;
-}
-
-.select {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-select {
-  color: #ffc165;
-  width: 10rem;
-  height: 3.2rem;
-  cursor: pointer;
-  padding: 1rem;
-  border: none;
-}
-
-select::after {
-  content: "/25BC";
-  position: absolute;
-  background: #ffc165;
-  top: 0;
-  right: 0;
-  padding: 1rem;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-
-select:hover::after {
-  background: #fff;
-  color: #ffc165;
 }
